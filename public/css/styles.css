@@ -1,3 +1,21 @@
+*{
+    margin: 0px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: teal;
+    color: white;
+}
+.header li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+}
+.footer{
+    background-color: silver;
+    padding: 5px;
+}
 .row {
     display: flex;
     /* justify-content: space-around; */
@@ -9,11 +27,4 @@
     border:1px solid gray;
     border-radius: 5px;
     
-}
-.header{
-    text-align: center;
-background-color: aqua;
-}
-footer{
-background-color: gray
 }
