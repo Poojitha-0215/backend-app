@@ -7,6 +7,7 @@ const productSchema = mongoose.Schema({
 });
 const productModel = mongoose.model("products",productSchema)
 export default productModel;
+
 //const productModel = [
   //{ id: 1, name: "Product 1", price: 100 },
   //{ id: 2, name: "Product 2", price: 150 },
