@@ -13,5 +13,10 @@ const addProduct = async (req,res) => {
 const addProductForm = async (req,res) =>{
     res.render("products/add")
 }
+const deleteproduct = async (req,res) => {
+    const id = req.params.id;
+    await productModel.findByIdAndDelete(id)
+    res.redirect("/products")
+}
 
-export { getProducts,addproduct };
+export { getProducts,addproduct, addProductForm,deleteProduct };
